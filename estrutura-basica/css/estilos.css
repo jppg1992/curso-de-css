@@ -1,3 +1,26 @@
-#titulo {
-	color:green;
-}
+ /*
+ .missao strong {
+ 	color: red;
+ }
+ 
+
+ article strong {
+ 	color: blue;
+ }
+ 
+
+ article .missao strong{ 
+  	color: green;
+ }
+ 
+
+ article > .importante > strong{ 
+ 	color :red;
+ }
+ */
+ /* > = somente classe .importante filho direto do article*/
+
+ article .importante > strong{ 
+ 	color :red;
+ }
+ 
