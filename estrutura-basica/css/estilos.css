@@ -99,8 +99,8 @@ background-color :rgb(255,200,0);
 
  a{
  	border-width: thick;
- 	border-color:red;
- 	border-style: solid;
+ /*	border-color:red;
+ 	border-style: solid; */
  }
   p{
   	/*background-color: #ccc;
@@ -156,4 +156,15 @@ background-color :rgb(255,200,0);
 	box-sizing: border-box;
 	border:5px solid red;
 	padding: 30px;
+}
+
+ul.menu{
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+ul.menu > li{
+	display: inline-block;
+	border: 3px solid red;
+	padding: 5px;
 }
