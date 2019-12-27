@@ -15,11 +15,6 @@ header img {
 	margin-top: 12px;
 }
 
-.container{
-	width: 100%;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 auto;
   
 }
 #planos {
@@ -37,13 +32,6 @@ article{
 	padding: 10px;
 }
 
-@media (min-width: 800px){
-	article{ 
-		width: 30%;
-		margin-right: 5%;
-		float: left;
-	}
-}
 
 article > h2{
 	background-color: #95a4a5;
