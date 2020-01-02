@@ -6,11 +6,25 @@
 /////////////////*/
 
 .plano{
+	position: relative;
 	border: 1px solid #95a4a5;
 	padding: 10px;
 }
 
+.plano--mais-popular::after{
+	position: absolute;
+	top: -10PX;
+	left: -10PX;
+ 
+	background-color: #c20303;
+	color: #fff;
+	padding: 0 10px;
 
+	font-size: 0.7142em;
+	line-height: 2.5;
+
+	content: "MAIS POPULAR";
+}
 .plano__cabecalho{
 	background-color: #95a4a5;
 	color: #fff;
@@ -125,6 +139,19 @@
 	font-size: 2.2rem;  
 }
 
+.depoimento > blockquote::before {
+	position: absolute;
+	left: -1px;
+	top: -0.45em;
+
+	color: #ccc;
+
+	font-size: 8em;
+
+	content: "\201C ";
+
+}
+
 @media(min-width: 992px){
 	.depoimento{
 		padding-left: 15%;
@@ -136,6 +163,9 @@
 }
 
 .depoimento blockquote{  
+
+	position: relative;
+
 	margin: 0;
 	padding: 0 60px;
 
@@ -162,4 +192,38 @@ border-radius: 50%
 	margin-top: 10px;
 }
 
- 
+
+
+ /*-----------------*/
+/*   navegação    */
+/*-----------------*/  
+
+.navegacao { 
+
+}
+
+.navegacao__menu {
+	float: right;
+}
+
+ /*-----------------*/
+/*botão-chaveador   */
+/*-----------------*/  
+
+.botao-chaveador{
+	width: 24px;
+	height: 24px;
+	border: 0;
+
+	background: 0;
+	background-image: url("../imagens/bars.png") ;
+	
+	outline: 0;
+
+}
+
+@media(min-width: 992px){
+	.botao-chaveador{
+		display: none;
+	}
+}
