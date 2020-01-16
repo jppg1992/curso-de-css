@@ -1,0 +1,25 @@
+/*cabecalho*/
+.assine__cabecalho {
+    height: 60px;
+	line-height: 60px;
+	background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    
+    text-align: center;
+}
+.assine__cabecalho img {
+    display: inline-block;
+    
+}
+ 
+
+
+#razao{
+    width: 80%; 
+}
+
+.titulo {
+    border-bottom: 1px solid #ccc;
+
+}
+

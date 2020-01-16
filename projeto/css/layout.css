@@ -1,6 +1,6 @@
 .layout-cabecalho{
 	height: 60px;
-	line-height: 60px;;
+	line-height: 60px;
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
 }
@@ -9,7 +9,7 @@
 	top: 0;
 	right: 0 ;
 	left: 0;
-	z-index: 1;
+	z-index: 9999;
 }
  
 .layout-planos {
